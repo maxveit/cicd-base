@@ -1,5 +1,5 @@
-#FROM adoptopenjdk/openjdk11-openj9:alpine
-FROM alpine:latest
+FROM adoptopenjdk/openjdk11-openj9:alpine
+#FROM alpine:latest
 
 RUN apk update
 RUN apk add bash openjdk11-jdk maven git
